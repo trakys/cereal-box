@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spongebob Squares</title>
+<style>
+.cereal {
+   width: 40%;
+   height: 800px;
+   background-color: #20B2AA;
+   margin: 20px;
+   padding: 0px;
+   text-align: center;
+}
+.outline {
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.outline2 {
+   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+#family_size {
+   color: white;
+   font-size: 30px;
+   font-family: Impact, fantasy;
+   height: 2px;
+   background-color: #20B2AA;
+   transform:translate(0px, 20px);
+   position:relative;
+}
+h1 {
+   height: 260px;
+   font-family: Impact, fantasy;
+   font-size: 100px;
+   font-weight: 900; 
+   font-variant: small-caps;
+   background-color: #AFEEEE; 
+   position:relative;
+}
+#bubble1 {
+   width: 100px;
+   height: 100px;
+   transform:rotate(130deg);
+   transform:translate(-130px, -45px);
+   position:relative;
+}
+#bubble2 {
+   width: 40px;
+   height: 40px;
+   transform:rotate(10deg);
+   transform:translate(-160px, 0px);
+   position:relative;
+}
+#bubble3 {
+   width: 50px;
+   height: 50px;
+   transform:rotate(50deg);
+   transform:translate(-280px, 40px);
+   position:relative;
+}
+#spongebob1 {
+   width: 300px;
+   height: 300px;
+   transform:translate(105px,-570px);
+   position:relative;
+}  
+#cereal_bowl {
+   transform:translate(60px,-120px);
+}
+#nutrition {
+   width: 200px;
+   height: 200px;
+   transform:translate(-300px, -430px);
+}
+#facts {
+   color:  white;
+   font-family: Impact, charcoal;
+   font-weight: 10;
+   font-variant: small-caps;
+   font-size: 23px;
+   transform:translate(-145px, -595px);
+}
+</style>
+</head>
+<body>
+
+<div class="cereal">
+   <p class="outline" id="family_size">FAMILY SIZE</p>
+   <h1 class="outline2">SPONGEBOB SQUARES</h1>
+   <img src="bubbles.png" id="bubble1">
+   <img src="bubbles.png" id="bubble2">
+   <img src="bubbles.png" id="bubble3">
+   <img src="cereal.png" id="cereal_bowl">
+   <img src="spongebob2.png" id="spongebob1">
+   <img src="orange_circle.png" id="nutrition">
+   <p id="facts" class="outline">FULL OF FIBER <br /> AND <br /> VITAMIN D!</p>
+</div>
+
+</body>
+</html>
